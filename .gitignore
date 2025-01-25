@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#project settings
+.idea
+
 # Distribution / packaging
 .Python
 build/
@@ -169,3 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+backend/.env.local
+*.env.local
