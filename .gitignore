@@ -9,7 +9,7 @@ __pycache__/
 #project settings
 .idea
 #postgres files
-.postgres
+.postgresql
 
 # Distribution / packaging
 .Python
