@@ -9,7 +9,6 @@ __pycache__/
 #project settings
 .idea
 #postgres files
-.postgresql
 
 # Distribution / packaging
 .Python
@@ -177,3 +176,4 @@ cython_debug/
 backend/.env.local
 *.env.local
 
+/postgresql
