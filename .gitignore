@@ -8,6 +8,8 @@ __pycache__/
 
 #project settings
 .idea
+#postgres files
+.postgres
 
 # Distribution / packaging
 .Python
@@ -131,7 +133,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+.env*
 .venv
 env/
 venv/
@@ -174,3 +176,4 @@ cython_debug/
 .pypirc
 backend/.env.local
 *.env.local
+
