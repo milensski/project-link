@@ -21,8 +21,8 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, Sp
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('djoser.urls')),
-    path('api/', include('djoser.urls.jwt')),
-    # OpenAPI schema generation endpoint
+    path('api/', include('accounts.urls')),
+
     path('schema/', SpectacularAPIView.as_view(), name='schema'),
 
     # Optional Swagger UI
